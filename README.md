@@ -1,4 +1,4 @@
-# OpenClaw 数据迁移工具
+# LCMD OpenClaw 数据迁移工具
 
 这是一个给最终用户使用的命令行工具，用来把旧版 OpenClaw 暴露到网盘中的数据迁移到新版目录结构。
 
@@ -88,11 +88,11 @@ sudo ./bin/openclaw-data-migration
 
 ## 目录迁移关系
 
-| 旧目录 | 新目录 |
-| --- | --- |
-| `/lzcapp/document/AppShareCenter/<包名>/openclaw-data` | `/home/node/.openclaw` |
-| `/lzcapp/document/AppShareCenter/<包名>/openclaw-workspace` | `/home/node/clawd` |
-| `/lzcapp/document/AppShareCenter/<包名>/openclaw-app` | `/app` |
+| 旧目录                                                      | 新目录                 |
+| ----------------------------------------------------------- | ---------------------- |
+| `/lzcapp/document/AppShareCenter/<包名>/openclaw-data`      | `/home/node/.openclaw` |
+| `/lzcapp/document/AppShareCenter/<包名>/openclaw-workspace` | `/home/node/clawd`     |
+| `/lzcapp/document/AppShareCenter/<包名>/openclaw-app`       | `/app`                 |
 
 当 `openclaw-data` 存在时，还会额外创建：
 
